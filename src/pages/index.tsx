@@ -21,9 +21,7 @@ export default function Home() {
   const { data, isLoading } = useJobdataQuery({ limit: limit, offset: 0 });
   console.log("data", experience);
 
-  // const filteredJdList = data?.jdList?.filter(jd => {
-  //   return jd.companyName.toLowerCase().includes(searchbox.toLowerCase());
-  // });
+
 
   const filteredJdList = useMemo(() => {
     return  data?.jdList?.filter((jd : any ) => {

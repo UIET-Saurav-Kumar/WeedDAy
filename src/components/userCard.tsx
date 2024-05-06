@@ -3,8 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 
 
-
-const UserCard = ({data} : any) => {
+//@ts-ignore
+const UserCard = ({data}) => {
     return (<div className="w-full rounded-xl shadow-lg py-4 px-6 border">
     <div className="py-1 px-2 shadow-md rounded-xl gap-1 inline-flex items-center border">
       <Image
