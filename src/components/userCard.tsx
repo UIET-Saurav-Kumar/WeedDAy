@@ -5,7 +5,7 @@ import Image from "next/image";
 
 //@ts-ignore
 const UserCard = ({data}) => {
-    return (<div className="w-full rounded-xl shadow-lg py-4 px-6 border">
+    return (<div className="w-full rounded-xl shadow-lg py-4 px-4 border">
     <div className="py-1 px-2 shadow-md rounded-xl gap-1 inline-flex items-center border">
       <Image
         src="/time.svg"
